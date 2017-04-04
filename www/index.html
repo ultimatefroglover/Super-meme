@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Frogs are cool</title>
+</head>
+<style>
+    body {
+        font-size: 2 em;
+    }
+</style>
+<body class="container">
+    <!--  BEGINS: Content for our application -->
+    <h1>Pepe the frog</h1>
+    <img src="http://i2.cdn.cnn.com/cnnnext/dam/assets/160927210830-tk-ah0927-exlarge-169.jpg" width="100%">
+	<p align="center"> Pepe the Frog is a popular Internet meme. The fictional green anthropomorphic frog with a frog-like face and a humanoid body is originally from a comic series by Matt Furie called Boy's Club.</p>
+	<button id="question" type="button" class="btn btn-default">surprise</button>
+
+
+    <!--  ENDS: Content for our application  -->
+
+    <!--  BEGINS: Script block  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        $("#question").click(function() {
+            alert("pepe loves you");
+        });
+    </script>
+    <!--  ENDS: Script block  -->
+</body>
+
+</html>
